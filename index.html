@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="images/watch_icon.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css" integrity="sha512-F7WyTLiiiPqvu2pGumDR15med0MDkUIo5VTVyyfECR5DZmCnDhti9q5VID02ItWjq6fvDfMaBaDl2J3WdL1uxA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>AVA| Buy Apple Watch</title>
+</head>
+<body>
+
+    <!--Navbar navigation section-->
+
+    <nav class="navbar">
+        <div class="navbar_container">
+            <a href="#home" class="navbar_logo"><i class="fas fa-gem"></i> AVA</a>
+            <div class="navbar_table" id="mobile_menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar_menu">
+                <li class="navbar_item">
+                    <a href="#home" class="navbar_links">Home</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="#choose_watch" class="navbar_links">Choose Watch</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="#gallery" class="navbar_links">Gallery</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="#contact_form" class="navbar_links">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+<!--Hero section-->
+<section class="hero" id="home">
+    <div class="hero_container">
+        <div class="hero_content">
+                <h1>Lifestyle <br> Smart <span class="hero_span">Watch</span></h1>
+                <h5>Technology of the future</h5>
+                <p> more healthier, more active, more connected life is within reach. </p>
+                <button class="hero_btn"><a href="#choose_watch">Choose Watch</a></button>
+            </div>
+            <div class="watch_wrapper bounce">
+                <img src="images/hero_watch-img.png" class="watch_image" alt="Image watch">
+            </div>
+            <div class="choose_watch-social">
+                <a href="#"><i class="fa fa-facebook-square"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+    
+
+<!--Intro section-->
+</section>
+<section class="intro">
+    <div class="intro_container">
+      <h1 class="intro_hide">
+        <span class="intro_text">Best inovation</span>
+      </h1>
+      <h1 class="intro_hide">
+        <span class="intro_text">For Everyday</span>
+      </h1>
+      <h1 class="intro_hide">
+        <span class="intro_text">people.</span>
+      </h1>
+    </div>
+  </section>
+  <div class="intro_slider"></div>
+
+
+<!--Choose Watch section-->   
+<section id="choose_watch" class="choose_watch-section">
+    <div class="choose_watch-container">
+        <div class="circle"></div>
+    <div class="choose_watch-content">
+        <h2>It`s not just Watch<br>It`s <span class="choose_watch-span">Apple Watch Series 3</span></h2>
+        <p>Get the exact workout metrics you need. Down to the decimal.Get the exact workout metrics you need. Down to the decimal.</p>
+        <a href="#contact_form" class="choose_watch-btn">Buy Watch</a>
+    </div>
+     <div class="choose_watch-image">
+        <img src="images/blue.png" alt="" class="watchess">
+    </div>
+    <ul class="choose_watch-line">
+        <li><img src="images/watch-blue.png" alt="" onclick="imageSlider('images/product_blue.png'); changeCircleColor('#e8f15c')" ></li>
+        <li><img src="images/watch-white.png" alt="" onclick="imageSlider('images/product_white.png'); changeCircleColor('#3bb021')"></li>
+        <li><img src="images/watch-black.png" alt="" onclick="imageSlider('images/product_black.png'); changeCircleColor('#007bff')"></li>
+    </ul>
+    </div>
+</section>
+
+
+<!--Gallery section--> 
+<section id="gallery"> 
+    <div class="gallery_container">
+        <nav class="gallery_navigation">
+            <div class="navigation_items">
+                <span class="item active" data-name="all">All</span>
+                <span class="item" data-name="black watch">Black</span>
+                <span class="item" data-name="white watch">White</span>
+                <span class="item" data-name="other watch">Other</span>
+            </div>
+        </nav>
+        <div class="gallery_images">
+            <div class="image" data-name="black watch"><span><img src="images/gallery_photo_blackcolor_1.jpg" alt=""></span></div>
+            <div class="image" data-name="black watch"><span><img src="images/gallery_photo_blackcolor_2.jpg" alt=""></span></div>
+            <div class="image" data-name="other watch"><span><img src="images/gallery_photo_othercolor_2.jpg" alt=""></span></div>
+            <div class="image" data-name="other watch"><span><img src="images/gallery_photo_othercolor_1.jpg" alt=""></span></div>
+            <div class="image" data-name="white watch"><span><img src="images/gallery_photo_whitecolor_1.jpg" alt=""></span></div>
+            <div class="image" data-name="white watch"><span><img src="images/gallery_photo_whitecolor_2.jpg" alt=""></span></div>
+        </div>
+    </div>
+  <!-- fullscreen img preview box -->
+    <div class="image_preview-box">
+        <div class="preview_details">
+            <span class="title"><p></p></span>
+            <span class="icon fas fa-times"></span>
+        </div>
+        <div class="image-box"><img src="" alt=""></div>
+    </div>
+    <div class="shadow"></div>
+</section>
+
+
+<!--Contact section-->  
+<section id="contact_form"> 
+    <div class="contact_form-container">
+        <div class="contact_form-grid">
+            <div class="contact_form-content">
+                <h1>Enter your details now.</h1>
+                <p>Enter your contact details and we will contact you. We can also answer your questions. </p>
+                <div class="form_social">
+                    <a href="#"><i class="fa fa-facebook-square"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="form">
+                <form action="#">
+                    <div class="contact_information">
+                        <input type="text" name="" id="" placeholder="Your Name">
+                        <input type="email" name="" id="" placeholder="Your Email">
+                    </div>
+                    <input type="text" name="" id="" placeholder="Your Subject">
+                    <textarea name="" id="" cols="30" rows="8" placeholder="Your Message"></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.5/gsap.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
