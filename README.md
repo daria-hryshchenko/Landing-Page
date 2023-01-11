@@ -9,4 +9,4 @@
 <br>
 :black_nib: Web Animations
 <br>
-![](https://media.giphy.com/media/Xe7bgmRNY2sF1ThoS1/giphy.gif)<h2> [SEE PROJECT](https://daria-hryshchenko.github.io/landing-page/)</h2>
+![](https://media.giphy.com/media/Xe7bgmRNY2sF1ThoS1/giphy.gif)<h2> [SEE PROJECT](https://daria-hryshchenko.github.io/Landing-Page-AVA/)</h2>
